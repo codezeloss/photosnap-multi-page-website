@@ -1,6 +1,6 @@
 import Image from "next/image";
 import ContentCard from "./ContentCard";
-import storiesImg from "/assets/home/desktop/beautiful-stories.jpg";
+import storiesImg from "../../public/assets/home/desktop/beautiful-stories.jpg";
 
 const DetailStories = () => {
   return (

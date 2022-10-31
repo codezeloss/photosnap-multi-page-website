@@ -1,6 +1,6 @@
-import responsive from "/assets/features/desktop/responsive.svg";
-import noLimit from "/assets/features/desktop/no-limit.svg";
-import embed from "/assets/features/desktop/embed.svg";
+import responsive from "../../public/assets/features/desktop/responsive.svg";
+import noLimit from "../../public/assets/features/desktop/no-limit.svg";
+import embed from "../../public/assets/features/desktop/embed.svg";
 import Image from "next/image";
 
 const PSFeatures = () => {

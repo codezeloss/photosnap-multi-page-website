@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import arrow from "/assets/shared/desktop/arrow.svg";
+import arrow from "../../public/assets/shared/desktop/arrow.svg";
 
 interface Props {
   title: string;
@@ -19,7 +19,7 @@ const ContentCard = ({ title, paragraph }: Props) => {
         >
           <button
             type="button"
-            className="font-dm-sans font-bold text-[12px] leading-[16px] tracking-[2px] text-pure-black uppercase"
+            className="font-dm-sans font-bold text-[12px] leading-[16px] tracking-[2px] text-pure-black uppercase hover:underline"
           >
             View the stories
           </button>

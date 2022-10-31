@@ -1,26 +1,32 @@
-import Image, { StaticImageData } from "next/image";
-import arrow from "/assets/shared/desktop/arrow-white.svg";
+import Image from "next/image";
+import arrow from "../../public/assets/shared/desktop/arrow-white.svg";
 
 interface Props {
-  picture: StaticImageData;
+  date: string;
+  src: any;
   title: string;
   credit: string;
 }
 
-const Story = ({ picture, title, credit }: Props) => {
+const Story = ({ date, src, title, credit }: Props) => {
   return (
     <div className="w-[100%] h-[500px] relative hover:-translate-y-[24px]">
       <div>
         <Image
           className="min-w-[360px] w-[100%] h-[500px] z-[-5]"
-          src={picture}
-          alt="Mountains"
+          src={src}
+          alt={title}
+          width="500"
+          height="500"
           priority
         />
       </div>
 
       <div className="w-[100%] z-[10] absolute bottom-0 p-[40px]">
         <div className="mb-[16px]">
+          <p className="font-dm-sans font-normal text-[13px] leading-[17px] text-pure-white mb-[4px]">
+            {date}
+          </p>
           <h3 className="text-pure-white">{title}</h3>
           <p className="font-dm-sans font-normal text-[13px] leading-[17px] text-pure-white">
             by {credit}

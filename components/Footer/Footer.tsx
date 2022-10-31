@@ -1,10 +1,10 @@
-import logo from "/assets/shared/desktop/logo-white.svg";
-import facebook from "/assets/shared/desktop/facebook.svg";
-import youtube from "/assets/shared/desktop/youtube.svg";
-import twitter from "/assets/shared/desktop/twitter.svg";
-import pinterest from "/assets/shared/desktop/pinterest.svg";
-import instagram from "/assets/shared/desktop/instagram.svg";
-import arrow from "/assets/shared/desktop/arrow-white.svg";
+import logo from "../../public/assets/shared/desktop/logo-white.svg";
+import facebook from "../../public/assets/shared/desktop/facebook.svg";
+import youtube from "../../public/assets/shared/desktop/youtube.svg";
+import twitter from "../../public/assets/shared/desktop/twitter.svg";
+import pinterest from "../../public/assets/shared/desktop/pinterest.svg";
+import instagram from "../../public/assets/shared/desktop/instagram.svg";
+import arrow from "../../public/assets/shared/desktop/arrow-white.svg";
 import Image from "next/image";
 import Link from "next/link";
 

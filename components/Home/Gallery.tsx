@@ -1,8 +1,8 @@
-import Story from "../Story";
-import mountains from "/assets/stories/desktop/mountains.jpg";
-import cityscapes from "/assets/stories/desktop/cityscapes.jpg";
-import daysvoyage from "/assets/stories/desktop/18-days-voyage.jpg";
-import architecturals from "/assets/stories/desktop/architecturals.jpg";
+import Story from "./Story";
+import mountains from "../../public/assets/stories/desktop/mountains.jpg";
+import cityscapes from "../../public/assets/stories/desktop/cityscapes.jpg";
+import daysvoyage from "../../public/assets/stories/desktop/18-days-voyage.jpg";
+import architecturals from "../../public/assets/stories/desktop/architecturals.jpg";
 
 const Gallery = () => {
   return (

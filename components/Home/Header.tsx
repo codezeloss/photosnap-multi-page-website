@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import arrow from "/assets/shared/desktop/arrow-white.svg";
-import photographer from "/assets/home/desktop/create-and-share.jpg";
+import arrow from "../../public/assets/shared/desktop/arrow-white.svg";
+import photographer from "../../public/assets/home/desktop/create-and-share.jpg";
 
 const Header = () => {
   return (

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import designImg from "/assets/home/desktop/designed-for-everyone.jpg";
+import designImg from "../../public/assets/home/desktop/designed-for-everyone.jpg";
 import ContentCard from "./ContentCard";
 
 const DetailDesign = () => {

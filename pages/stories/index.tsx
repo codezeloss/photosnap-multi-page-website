@@ -1,8 +1,12 @@
+import Gallery from "../../components/Stories/Gallery";
+import Header from "../../components/Stories/Header";
+
 const Stories = () => {
   return (
-    <div>
-      Enter
-    </div>
+    <main>
+      <Header/>
+      <Gallery/>
+    </main>
   );
 }
 
