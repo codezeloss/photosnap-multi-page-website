@@ -80,7 +80,7 @@ const Footer = () => {
           >
             <button
               type="button"
-              className="font-dm-sans font-bold text-[12px] leading-[16px] tracking-[2px] text-pure-white uppercase"
+              className="font-dm-sans font-bold text-[12px] leading-[16px] tracking-[2px] text-pure-white uppercase hover:underline"
             >
               Get an invite
             </button>

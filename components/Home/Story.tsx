@@ -12,7 +12,7 @@ const Story = ({ picture, title, credit }: Props) => {
     <div className="w-[100%] h-[500px] relative hover:-translate-y-[24px]">
       <div>
         <Image
-          className="min-w-[360px] w-[100%] h-[500px] z-[-5]"
+          className="object-cover min-w-[360px] w-[100%] h-[500px] z-[-5]"
           src={picture}
           alt="Mountains"
           priority

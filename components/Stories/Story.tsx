@@ -13,12 +13,11 @@ const Story = ({ date, src, title, credit }: Props) => {
     <div className="w-[100%] h-[500px] relative hover:-translate-y-[24px]">
       <div>
         <Image
-          className="min-w-[360px] w-[100%] h-[500px] z-[-5]"
+          className="object-cover min-w-[360px] w-[100%] h-[500px] z-[-5]"
           src={src}
           alt={title}
           width="500"
           height="500"
-          priority
         />
       </div>
 
@@ -36,12 +35,7 @@ const Story = ({ date, src, title, credit }: Props) => {
           <p className="font-dm-sans font-bold text-[12px] leading-[16px] tracking-[2px] text-pure-white uppercase">
             Read story
           </p>
-          <Image
-            className="w-[42px] h-[12px]"
-            src={arrow}
-            alt="Arrow"
-            priority
-          />
+          <Image className="w-[42px] h-[12px]" src={arrow} alt="Arrow" />
         </div>
       </div>
     </div>
