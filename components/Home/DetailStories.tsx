@@ -2,7 +2,6 @@ import Image from "next/image";
 import ContentCard from "./ContentCard";
 import storiesImg from "/assets/home/desktop/beautiful-stories.jpg";
 
-
 const DetailStories = () => {
   return (
     <section className="max-h-[650px] mx-auto flex flex-row">

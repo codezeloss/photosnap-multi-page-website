@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import ButtonCTA from "./ButtonCTA";
+import ButtonCTA from "../Buttons/ButtonCTA";
 import logo from "/assets/shared/desktop/logo.svg";
 
 const Navbar = () => {
@@ -14,7 +14,7 @@ const Navbar = () => {
 
       <div className="flex gap-[37px] font-dm-sans font-bold text-[12px] leading-[16px] tracking-[2px] text-pure-black uppercase">
         <Link href="/stories" passHref legacyBehavior>
-          <a className="hover:text-pure-black/[.3] cursor-pointer">Strories</a>
+          <a className="hover:text-pure-black/[.3] cursor-pointer">Stories</a>
         </Link>
         <Link href="/features" passHref legacyBehavior>
           <a className="hover:text-pure-black/[.3] cursor-pointer">Features</a>

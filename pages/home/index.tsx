@@ -1,6 +1,8 @@
-import DetailDesign from "../../components/DetailDesign";
-import DetailStories from "../../components/DetailStories";
-import Header from "../../components/Header";
+import DetailDesign from "../../components/Home/DetailDesign";
+import DetailStories from "../../components/Home/DetailStories";
+import PSFeatures from "../../components/Home/PSFeatures";
+import Gallery from "../../components/Home/Gallery";
+import Header from "../../components/Home/Header";
 
 const Homepage = () => {
   return (
@@ -8,6 +10,8 @@ const Homepage = () => {
       <Header />
       <DetailStories />
       <DetailDesign />
+      <Gallery/>
+      <PSFeatures/>
     </main>
   );
 };
