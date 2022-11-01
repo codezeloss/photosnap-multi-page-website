@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <section className="max-h-[650px] mx-auto flex flex-row 6bp:flex-col-reverse 6bp:max-h-[100%]">
       <div className="bg-pure-black flex items-center">
-        <div className="w-[610px] flex gap-[106px] 3bp:gap-[54px] py-[173px] pr-[111px] 3bp:pr-[54px] 4bp:w-[495px] 6bp:flex-col 6bp:py-0 6bp:px-[33px] 6bp:pb-[72px] 6bp:w-[100%]">
+        <div className="w-[610px] flex gap-[106px] 3bp:gap-[54px] py-[173px] pr-[111px] 1bp:w-[100%] 1bp:h-[100%] 3bp:pr-[54px] 4bp:w-[495px] 6bp:flex-col 6bp:py-0 6bp:px-[33px] 6bp:pb-[72px] 6bp:w-[100%]">
           <div className="bg-gradient-to-b from-spc-blue to-spc-pink w-[6px] h-[304px] 6bp:w-[128px] 6bp:h-[6px]" />
           <div className="w-[100%] flex flex-col text-pure-white">
             <h1 className="text-pure-white mb-[21px]">
@@ -41,7 +41,7 @@ const Header = () => {
 
       <div>
         <Image
-          className="object-cover w-[830px] h-[650px] 6bp:w-[100%] 6bp:h-[100%]"
+          className="object-cover w-[830px] h-[650px] 1bp:w-[100%] 1bp:h-[100%] 6bp:w-[100%] 6bp:h-[100%]"
           src={photographer}
           alt="Photographer"
           priority

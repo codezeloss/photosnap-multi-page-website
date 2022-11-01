@@ -12,7 +12,7 @@ const DetailDesign = () => {
 
       <div>
         <Image
-          className="w-[830px] h-[650px] 2bp:object-cover 2bp:min-w-[100%] 4bp:w-[495px]"
+          className="w-[830px] h-[650px] 1bp:w-[100%] 1bp:min-w-[830px] 2bp:object-cover 2bp:min-w-[100%] 4bp:w-[495px]"
           src={designImg}
           alt="Photographer"
           priority

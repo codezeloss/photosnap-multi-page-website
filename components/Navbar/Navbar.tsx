@@ -53,7 +53,7 @@ const Navbar = () => {
       )}
       {!menuToggled && (
         <Image
-          className="w-[14.85px] h-[14.85px] cursor-pointer ml-auto"
+          className="hidden 5bp:flex w-[14.85px] h-[14.85px] cursor-pointer ml-auto"
           src={close}
           alt="Menu"
           onClick={menuToggleHandler}
@@ -61,7 +61,7 @@ const Navbar = () => {
       )}
 
       {!menuToggled && (
-        <div>
+        <div className="hidden 5bp:flex">
           <MobileNav menuToggle={menuToggleHandler} />
         </div>
       )}
