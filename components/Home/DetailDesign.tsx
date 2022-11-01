@@ -4,7 +4,7 @@ import ContentCard from "./ContentCard";
 
 const DetailDesign = () => {
   return (
-    <section className="h-[650px] mx-auto flex flex-row">
+    <section className="h-[650px] mx-auto flex flex-row 6bp:flex-col-reverse 6bp:h-[100%]">
       <ContentCard
         title="Design for everyone"
         paragraph="Photosnap can help you create stories that resonate with your audience.  Our tool is designed for photographers of all levels, brands, businesses you name it."

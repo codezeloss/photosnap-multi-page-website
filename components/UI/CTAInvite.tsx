@@ -7,12 +7,12 @@ const CTAInvite = () => {
   return (
     <section className="relative flex items-center justify-center border-l-spc-pink border-l-[6px]">
       <Image
-        className="object-cover w-[100%] h-[280px] z-[-5]"
+        className="object-cover w-[100%] h-[280px] z-[-5] 5bp:h-[375px]"
         src={bgBeta}
         alt="Beta"
       />
 
-      <div className="max-w-[1138.8px] w-[100%] absolute z-[10] top-0 flex flex-row justify-between items-center py-[68px] mx-auto px-[1.8rem]">
+      <div className="max-w-[1138.8px] w-[100%] absolute z-[10] top-0 flex flex-row justify-between items-center py-[68px] mx-auto px-[1.8rem] 5bp:flex-col 5bp:items-start 5bp:gap-[24px] 5bp:py-[64px] 5bp:px-[33px] 5bp:justify-center 5bp:h-[100%]">
         <div>
           <h1 className="max-w-[400px] text-pure-white">
             We’re in beta. Get your invite today!

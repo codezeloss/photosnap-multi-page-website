@@ -11,13 +11,18 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="bg-pure-black py-[64px]">
-      <div className="max-w-[1132.8px] max-h-[122px] mx-auto flex justify-between px-[1.8rem]">
-        <div className="flex gap-[109px]">
-          <div className="flex flex-col gap-[85px]">
+      <div className="max-w-[1132.8px] max-h-[122px] mx-auto flex justify-between px-[1.8rem] 6bp:flex-col 6bp:max-h-[100%] 6bp:gap-[119px]">
+        <div className="flex gap-[109px] 5bp:gap-[47px] 6bp:flex-col 6bp:text-center 6bp:gap-[48px]">
+          <div className="flex flex-col gap-[85px] 6bp:gap-[32px] 6bp:justify-center 6bp:mx-auto">
             <div className="w-[170px] h-[16px]">
-              <Image className="w-fit h-fit" src={logo} alt="Logo" priority />
+              <Image
+                className="w-[170px] h-[16px]"
+                src={logo}
+                alt="Logo"
+                priority
+              />
             </div>
-            <div className="flex gap-[13.33px] items-center">
+            <div className="flex gap-[13.33px] items-center 6bp:justify-center">
               <Image
                 className="w-[20px] h-[20px] cursor-pointer"
                 src={facebook}
@@ -73,7 +78,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-[86px] items-end">
+        <div className="flex flex-col gap-[86px] items-end 6bp:items-center 6bp:gap-[32px]">
           <Link href="." className="flex gap-[16px] cursor-pointer justify-end">
             <button
               type="button"

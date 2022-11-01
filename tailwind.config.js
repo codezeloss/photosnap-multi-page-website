@@ -23,6 +23,8 @@ module.exports = {
       "3bp": { max: "1150px" },
       "4bp": { max: "947px" },
       "5bp": { max: "766px" },
+      "6bp": { max: "680px" },
+      "7bp": { max: "478px" },
     },
     extend: {},
   },

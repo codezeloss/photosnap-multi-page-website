@@ -5,15 +5,15 @@ import arrow from "../../public/assets/shared/desktop/arrow-white.svg";
 
 const Header = () => {
   return (
-    <section className="w-[100%] h-[650px] relative">
+    <section className="w-[100%] h-[650px] relative 6bp:h-[100%]">
       <Image
-        className="object-cover w-[100%] h-[650px]"
+        className="object-cover w-[100%] h-[650px] 6bp:h-[100%]"
         src={appalacia}
         alt="Moon of appalacia"
       />
 
-      <div className="max-w-[387px] absolute top-0 ml-[112px] my-[122px] 3bp:ml-[39px]">
-        <div>
+      <div className="max-w-[387px] absolute top-0 ml-[112px] my-[122px] 3bp:ml-[39px] 6bp:max-w-[100%] 6bp:ml-0 6bp:my-0 6bp:py-[48px] 6bp:px-[28px] 6bp:relative 6bp:bg-pure-black">
+        <div className="6bp:max-w-[100%]">
           <div>
             <p className="font-dm-sans font-bold text-[12px] leading-[16px] tracking-[2px] text-pure-white mb-[24px] uppercase">
               Last months featured story

@@ -6,18 +6,14 @@ import Story from "../UI/Story";
 
 const Gallery = () => {
   return (
-    <section className="grid grid-cols-4 4bp:grid-cols-2">
+    <section className="grid grid-cols-4 4bp:grid-cols-2 7bp:grid-cols-1">
       <Story src={mountains} title="The Mountains" credit="John Applesed" />
       <Story
         src={cityscapes}
         title="Sunset Cityscapes"
         credit="Benjamin Cruz"
       />
-      <Story
-        src={daysvoyage}
-        title="18 Days Voyage"
-        credit="Alexei Borodin"
-      />
+      <Story src={daysvoyage} title="18 Days Voyage" credit="Alexei Borodin" />
       <Story
         src={architecturals}
         title="Architecturals"

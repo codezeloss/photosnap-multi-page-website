@@ -8,8 +8,8 @@ import dragdrop from "../../public/assets/features/desktop/drag-drop.svg";
 
 const AllFeatures = () => {
   return (
-    <section className="flex flex-col gap-[104px] 5bp:flex-row 5bp:gap-[11px] 5bp:justify-center 5bp:items-center 5bp:py-[112px]">
-      <div className="max-w-[1138.8px] h-[236px] flex fle-row items-center gap-[30px] mx-auto mt-[160px] px-[1.8rem] 5bp:flex-col 5bp:h-[100%] 5bp:mt-0">
+    <section className="flex flex-col gap-[104px] 5bp:flex-row 5bp:gap-[11px] 5bp:py-[64px] 6bp:flex-col 6bp:gap-[40px]">
+      <div className="max-w-[1138.8px] h-[236px] flex fle-row items-center gap-[30px] mx-auto mt-[160px] px-[1.8rem] 5bp:flex-col 5bp:h-[100%] 5bp:mt-0 5bp:space-y-[40px]">
         <div className="max-w-[350px] flex flex-col gap-[48px] justify-center items-center">
           <Image
             className="w-[72px] h-[72px]"
@@ -63,7 +63,7 @@ const AllFeatures = () => {
       </div>
 
       {/* --------------------------------------------------------- */}
-      <div className="max-w-[1138.8px] h-[236px] flex fle-row items-center gap-[30px] mx-auto mb-[160px] px-[1.8rem] 5bp:flex-col 5bp:h-[100%] 5bp:mb-0 5bp:justify-center 5bp:items-center">
+      <div className="max-w-[1138.8px] h-[236px] flex fle-row items-center gap-[30px] mx-auto mb-[160px] px-[1.8rem] 5bp:flex-col 5bp:h-[100%] 5bp:mb-0 5bp:justify-center 5bp:items-center 5bp:space-y-[40px]">
         <div className="max-w-[350px] flex flex-col gap-[48px] justify-center items-center">
           <Image
             className="w-[81px] h-[72px]"

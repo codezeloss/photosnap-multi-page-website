@@ -63,7 +63,7 @@ const PricingFeatures = () => {
   ];
 
   const customClasses =
-    "w-[140px] h-[16px] text-center items-center justify-center";
+    "w-[140px] h-[16px] text-center items-center justify-center 5bp:w-fit 5bp:ml-[30px] 7bp:text-[7.5px] 7bp:font-bold 7bp:ml-[25px]";
 
   return (
     <section className="max-w-[731px] mx-auto mb-[160px] font-dm-sans font-bold text-[12px] leading-[16px] tracking-[2px] text-pure-black uppercase">
@@ -79,7 +79,7 @@ const PricingFeatures = () => {
             <div className={customClasses}>
               <p>Pro</p>
             </div>
-            <div className={customClasses}>
+            <div className={`${customClasses} 5bp:mr-[8px]`}>
               <p>Business</p>
             </div>
           </div>
