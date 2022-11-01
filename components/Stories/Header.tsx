@@ -12,7 +12,7 @@ const Header = () => {
         alt="Moon of appalacia"
       />
 
-      <div className="max-w-[387px] absolute top-0 ml-[112px] my-[122px]">
+      <div className="max-w-[387px] absolute top-0 ml-[112px] my-[122px] 3bp:ml-[39px]">
         <div>
           <div>
             <p className="font-dm-sans font-bold text-[12px] leading-[16px] tracking-[2px] text-pure-white mb-[24px] uppercase">

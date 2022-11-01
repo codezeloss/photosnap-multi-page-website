@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const PSFeatures = () => {
   return (
-    <section className="max-w-[1110px] h-[236px] flex fle-row items-center gap-[30px] mx-auto mt-[120px] mb-[120px]">
+    <section className="max-w-[1138.8px] h-[236px] flex fle-row items-center gap-[30px] mx-auto mt-[120px] mb-[120px] px-[1.8rem] 5bp:flex-col 5bp:h-[100%]">
       <div className="max-w-[350px] flex flex-col gap-[48px] justify-center items-center">
         <Image
           className="w-[72px] h-[72px]"

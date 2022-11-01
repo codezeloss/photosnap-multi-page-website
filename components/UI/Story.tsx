@@ -14,7 +14,7 @@ const Story = ({ date, src, title, credit }: Props) => {
     <div className="w-[100%] h-[500px] relative hover:-translate-y-[24px]">
       <div>
         <Image
-          className="object-cover min-w-[360px] w-[100%] h-[500px] z-[-5]"
+          className="object-cover w-[100%] h-[500px] z-[-5]"
           src={src}
           alt={title}
           width="500"

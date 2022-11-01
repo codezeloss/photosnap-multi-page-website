@@ -5,17 +5,19 @@ import arrow from "../../public/assets/shared/desktop/arrow-white.svg";
 
 const CTAInvite = () => {
   return (
-    <section className="relative">
+    <section className="relative flex items-center justify-center border-l-spc-pink border-l-[6px]">
       <Image
         className="object-cover w-[100%] h-[280px] z-[-5]"
         src={bgBeta}
         alt="Beta"
       />
 
-      <div className="w-[100%] absolute z-[10] top-0 flex flex-row justify-between gap-[20px] items-center py-[68px] px-[165px]">
-        <h1 className="max-w-[400px] text-pure-white">
-          We’re in beta. Get your invite today!
-        </h1>
+      <div className="max-w-[1138.8px] w-[100%] absolute z-[10] top-0 flex flex-row justify-between items-center py-[68px] mx-auto px-[1.8rem]">
+        <div>
+          <h1 className="max-w-[400px] text-pure-white">
+            We’re in beta. Get your invite today!
+          </h1>
+        </div>
 
         <div>
           <Link href="/pricing" className="flex gap-[16px] cursor-pointer">

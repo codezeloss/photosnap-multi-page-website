@@ -10,7 +10,7 @@ const PricingPlans = () => {
   };
 
   return (
-    <section className="flex flex-col items-center mb-[160px]">
+    <section className="flex flex-col items-center mb-[160px] px-[1.8rem]">
       <div className="flex flex-row gap-[32px] mb-[48px]">
         <p
           className={`font-dm-sans font-bold text-[18px] leading-[25px] text-pure-black ${
@@ -45,7 +45,7 @@ const PricingPlans = () => {
         </p>
       </div>
 
-      <div className="flex flex-grow gap-[30px] items-center">
+      <div className="flex flex-grow gap-[30px] items-center 3bp:flex-col">
         <SecPricingPlan title="Basic" description="Includes basic usage of our platform. Recommended for new and aspiring photographers." price={!planToggled ? "19.00" : "190.00"} period={!planToggled ? "month" : "year"} />
 
         <MainPricingPlan

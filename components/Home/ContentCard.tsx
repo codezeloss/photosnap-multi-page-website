@@ -9,8 +9,8 @@ interface Props {
 
 const ContentCard = ({ title, paragraph }: Props) => {
   return (
-    <div className="bg-pure-white flex items-center px-[112px]">
-      <div className="w-[100%] flex flex-col text-pure-white">
+    <div className="w-[610px] bg-pure-white flex items-center px-[112px] 3bp:px-[54px]">
+      <div className="flex flex-col text-pure-white">
         <h1 className="text-pure-black mb-[21px]">{title}</h1>
         <p className="ptext text-pure-black/[.6] mb-[48px]">{paragraph}</p>
         <Link

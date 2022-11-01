@@ -7,7 +7,7 @@ const DetailStories = () => {
     <section className="max-h-[650px] mx-auto flex flex-row">
       <div>
         <Image
-          className="min-w-[830px] w-[100%] h-[650px]"
+          className="w-[830px] h-[650px] 2bp:object-cover 2bp:min-w-[100%] 4bp:w-[495px]"
           src={storiesImg}
           alt="Photographer"
           priority

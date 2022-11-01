@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <section className="max-h-[650px] mx-auto flex flex-row">
       <div className="bg-pure-black flex items-center">
-        <div className="min-w-[610px] w-[100%] flex gap-[106px] py-[173px] pr-[111px]">
+        <div className="w-[610px] flex gap-[106px] 3bp:gap-[54px] py-[173px] pr-[111px] 3bp:pr-[54px] 4bp:w-[495px]">
           <div className="bg-gradient-to-b from-spc-blue to-spc-pink w-[6px] h-[304px]" />
           <div className="w-[100%] flex flex-col text-pure-white">
             <h1 className="text-pure-white mb-[21px]">
@@ -41,7 +41,7 @@ const Header = () => {
 
       <div>
         <Image
-          className="min-w-[830px] w-[100%] h-[650px]"
+          className="object-cover w-[830px] h-[650px]"
           src={photographer}
           alt="Photographer"
           priority
