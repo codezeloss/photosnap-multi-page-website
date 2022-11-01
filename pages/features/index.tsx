@@ -1,5 +1,5 @@
 import AllFeatures from "../../components/Features/AllFeatures";
-import CTAInvite from "../../components/Features/CTAInvite";
+import CTAInvite from "../../components/UI/CTAInvite";
 import Header from "../../components/Features/Header";
 
 const Features = () => {

@@ -19,7 +19,7 @@ const Header = () => {
               others.
             </p>
             <Link
-              href="/pricing"
+              href="."
               className="flex gap-[16px] cursor-pointer justify-start items-center"
             >
               <button

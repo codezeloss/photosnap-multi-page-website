@@ -1,4 +1,4 @@
-import Story from "./Story";
+import Story from "../UI/Story";
 import { data } from "./data";
 
 const Gallery = () => {

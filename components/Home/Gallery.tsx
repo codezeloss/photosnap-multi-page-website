@@ -1,4 +1,4 @@
-import Story from "./Story";
+import Story from "../UI/Story";
 import mountains from "../../public/assets/stories/desktop/mountains.jpg";
 import cityscapes from "../../public/assets/stories/desktop/cityscapes.jpg";
 import daysvoyage from "../../public/assets/stories/desktop/18-days-voyage.jpg";
@@ -7,19 +7,15 @@ import architecturals from "../../public/assets/stories/desktop/architecturals.j
 const Gallery = () => {
   return (
     <section className="flex flex-row">
-      <Story picture={mountains} title="The Mountains" credit="John Applesed" />
+      <Story src={mountains} title="The Mountains" credit="John Applesed" />
       <Story
-        picture={cityscapes}
+        src={cityscapes}
         title="Sunset Cityscapes"
         credit="Benjamin Cruz"
       />
+      <Story src={daysvoyage} title="18 Days Voyage" credit="Alexei Borodin" />
       <Story
-        picture={daysvoyage}
-        title="18 Days Voyage"
-        credit="Alexei Borodin"
-      />
-      <Story
-        picture={architecturals}
+        src={architecturals}
         title="Architecturals"
         credit="Samantha Brooke"
       />

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import ButtonCTA from "../Buttons/ButtonCTA";
+import ButtonCTA from "../UI/Buttons/ButtonCTA";
 import logo from "../../public/assets/shared/desktop/logo.svg";
 
 const Navbar = () => {

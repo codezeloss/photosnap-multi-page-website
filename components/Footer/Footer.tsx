@@ -74,10 +74,7 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col gap-[86px] items-end">
-          <Link
-            href="/pricing"
-            className="flex gap-[16px] cursor-pointer justify-end"
-          >
+          <Link href="." className="flex gap-[16px] cursor-pointer justify-end">
             <button
               type="button"
               className="font-dm-sans font-bold text-[12px] leading-[16px] tracking-[2px] text-pure-white uppercase hover:underline"
