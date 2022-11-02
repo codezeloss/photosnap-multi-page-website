@@ -38,7 +38,12 @@ const Story = ({ date, src, title, credit }: Props) => {
             <p className="font-dm-sans font-bold text-[12px] leading-[16px] tracking-[2px] text-pure-white uppercase">
               Read story
             </p>
-            <Image className="w-[42px] h-[12px]" src={arrow} alt="Arrow" priority/>
+            <Image
+              className="w-[42px] h-[12px]"
+              src={arrow}
+              alt="Arrow"
+              priority
+            />
           </div>
         </Link>
       </div>
