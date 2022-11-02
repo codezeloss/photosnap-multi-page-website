@@ -18,7 +18,7 @@ module.exports = {
       "dm-sans": ["DM Sans", "sans-serif"],
     },
     screens: {
-      "1bp": { min: "1440px" },
+      "1bp": { min: "1445px" },
       "2bp": { max: "1440px" },
       "3bp": { max: "1150px" },
       "4bp": { max: "947px" },
