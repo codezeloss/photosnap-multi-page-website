@@ -28,7 +28,7 @@ const Story = ({ date, src, title, credit }: Props) => {
           <p className="font-dm-sans font-normal text-[13px] leading-[17px] text-pure-white mb-[4px]">
             {date ? date : ""}
           </p>
-          <h3 className="text-pure-white">{title}</h3>
+          <h3 className="text-pure-white mb-[4px]">{title}</h3>
           <p className="font-dm-sans font-normal text-[13px] leading-[17px] text-pure-white">
             by {credit}
           </p>
