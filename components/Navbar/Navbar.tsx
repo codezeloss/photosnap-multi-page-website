@@ -43,7 +43,7 @@ const Navbar = () => {
         <ButtonCTA />
       </div>
 
-      {menuToggled && (
+      {!menuToggled && (
         <Image
           className="hidden 5bp:flex w-[20px] h-[6px] cursor-pointer"
           src={menu}
@@ -51,7 +51,7 @@ const Navbar = () => {
           onClick={menuToggleHandler}
         />
       )}
-      {!menuToggled && (
+      {menuToggled && (
         <Image
           className="hidden 5bp:flex w-[14.85px] h-[14.85px] cursor-pointer ml-auto"
           src={close}
@@ -60,7 +60,7 @@ const Navbar = () => {
         />
       )}
 
-      {!menuToggled && (
+      {menuToggled && (
         <div className="hidden 5bp:flex">
           <MobileNav menuToggle={menuToggleHandler} />
         </div>
