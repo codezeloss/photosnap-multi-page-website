@@ -23,7 +23,7 @@ const Story = ({ date, src, title, credit }: Props) => {
         />
       </div>
 
-      <div className="w-[100%] z-[10] absolute bottom-0 p-[40px]">
+      <div className="flex flex-col justify-end w-[100%] z-[10] h-[100%] absolute bottom-0 p-[40px] bg-pure-black/[.25]">
         <div className="mb-[16px]">
           <p className="font-dm-sans font-normal text-[13px] leading-[17px] text-pure-white mb-[4px]">
             {date ? date : ""}
